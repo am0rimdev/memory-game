@@ -38,7 +38,7 @@ Certifique-se de ter instalado em sua máquina:
 
 ### Passo a passo para executar o jogo localmente
 1. Clone este repositório ou faça o download do código-fonte
-`git clone https://github.com/seu-usuario/jogo-da-memoria.git`
+`git clone https://github.com/am0rimdev/memory-game.git`
 
 2. Navegue até a pasta do projeto
 `cd jogo-da-memoria`
