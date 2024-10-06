@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Shojumaru&display=swap">
+        <title>Memory Game</title>
+    </head>
+    <body>
+        <!-- Game Menu -->
+        <section id="game-menu">
+            <h1 id="title">Memory Game</h1>
+            <div class="menu-options">
+                <input id="player-name-input" type="text" placeholder="name">
+                <button id="play-game-button">Play Game</button>
+                <button id="game-difficulty-option-button">Difficulty: Easy</button>
+                <button id="ranking-button">Ranking</button>
+            </div>
+        </section>
+
+        <!-- Game -->
+        <main id="game" class="hidden">
+            <header id="game-informations">
+                <span id="score"></span>
+                <span id="timer"></span>
+            </header>
+            
+            <div id="cards-container"></div>
+            
+            <div>
+                <button id="back-to-menu-from-game-button">Back to Menu</button>
+                <button id="restart-button">Restart</button>
+            </div>
+        </main>
+
+        <!-- Ranking -->
+        <div id="ranking" class="hidden">
+            <h2 class="ranking-title">Ranking</h2>
+            <ul id="ranking-list" class="scrollbar"></ul>
+
+            <button id="back-to-menu-from-ranking-button">Back to Menu</button>
+        </div>
+
+        <!-- End Game Screen -->
+        <div id="end-game-screen" class="hidden">
+            <h2 id="game-result-title"></h2>
+            <p id="final-score"></p>
+            <p id="player-name-display"></p>
+
+            <div id="end-game-buttons">
+                <button id="play-again-button">Play Again</button>
+                <button id="back-to-menu-from-score-button">Back to Menu</button>
+            </div>
+        </div>
+
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
