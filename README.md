@@ -41,7 +41,7 @@ Certifique-se de ter instalado em sua máquina:
 `git clone https://github.com/am0rimdev/memory-game.git`
 
 2. Navegue até a pasta do projeto
-`cd jogo-da-memoria`
+`cd memory-game`
 
 3. Execute o projeto
 `npm install`
